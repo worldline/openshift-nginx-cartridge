@@ -2,7 +2,7 @@
 
 Summary:       Provides Nginx support
 Name:          openshift-origin-cartridge-nginx
-Version:       1.0.1
+Version:       1.0.2
 Release:       1%{?dist}
 Group:         Development/Languages
 License:       ASL 2.0
@@ -47,6 +47,9 @@ Provides Nginx support to OpenShift. (Cartridge Format V2)
 %doc %{cartridgedir}/LICENSE
 
 %changelog
+* Mon Jul 21 2014 Nicolas MESSIN <nicolas.messin@worldline.com> 1.0.2-1
+- Change from 1.4 to 1.2 (nicolas.messin@worldline.com)
+
 * Mon Jul 21 2014 Nicolas MESSIN <nicolas.messin@worldline.com> 1.0.1-1
 - new package built with tito
 
