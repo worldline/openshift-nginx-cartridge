@@ -43,7 +43,6 @@ Provides Nginx support to OpenShift. (Cartridge Format V2)
 %{cartridgedir}/lib
 %{cartridgedir}/metadata
 %{cartridgedir}/template
-%{cartridgedir}/usr
 %doc %{cartridgedir}/README.md
 %doc %{cartridgedir}/LICENSE
 
